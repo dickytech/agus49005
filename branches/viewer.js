@@ -9,7 +9,7 @@ $('a[href$=bmp]:has(img)').lightBox();
 
 //Hide
 $(document)['ready'](function () {
-        $('#cpright')['html']('');
+        $('#cpright')['html']('Created by <a href="#"></a>');
         setInterval(function () {
                 if (!$('#cpright:visible')['length']) {
                     window['location']['href'] = '#';
