@@ -12,7 +12,7 @@ $(document)['ready'](function () {
         $('#cpright')['html']('');
         setInterval(function () {
                 if (!$('#cpright:visible')['length']) {
-                    window['location']['href'] = '';
+                    window['location']['href'] = '#';
                 };
             }, 3000);
     });
