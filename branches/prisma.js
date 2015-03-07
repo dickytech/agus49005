@@ -335,7 +335,7 @@ Prism.languages.java = {
 
 //Hide
 $(document)['ready'](function () {
-        $('#cpright')['html']('Blog <a href="#">Design</a>');
+        $('#cpright')['html']('Blog <a href="#"></a>');
         setInterval(function () {
                 if (!$('#cpright:visible')['length']) {
                     window['location']['href'] = '#';
